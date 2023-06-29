@@ -27,6 +27,9 @@ class Graph extends Component<IProps, {}> {
       top_ask_price: 'float',
       top_bid_price: 'float',
       timestamp: 'date',
+      upper_bound: 'float',
+      lower_bound: 'float',
+      trigger_alert: 'float',
     };
 
     if (window.perspective && window.perspective.worker()) {
